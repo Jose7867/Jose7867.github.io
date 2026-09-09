@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ShoppingCart, Minus, Plus, CheckCircle2, AlertCircle } from "lucide-react";
 import type { Product } from "../data/products";
 import { useCartStore } from "../store/cartStore";
@@ -15,6 +15,15 @@ export default function ProductDetail({ product }: Props) {
   const [quantity, setQuantity] = useState(1);
   const [error, setError] = useState<string | null>(null);
   const [added, setAdded] = useState(false);
+
+  useEffect(() => {
+    setActiveImage(product.image);
+    setColor(null);
+    setSize(null);
+    setQuantity(1);
+    setError(null);
+    setAdded(false);
+  }, [product]);
 
   const addItem = useCartStore((s) => s.addItem);
   const openCart = useCartStore((s) => s.openCart);
