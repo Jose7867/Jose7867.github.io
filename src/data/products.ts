@@ -289,7 +289,7 @@ export const PRODUCTS: Product[] = [
     image: "../images/arnes.webp",
     images: [
       "../images/arnes.webp",
-      "../images/arnes_b.webp",
+      "../images/arnes.webp",
     ],
     description: "Arnés de cuerpo completo con 3 argollas para trabajos en altura.",
     features: [
