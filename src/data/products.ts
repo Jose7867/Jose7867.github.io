@@ -411,5 +411,61 @@ export const PRODUCTS: Product[] = [
     featured: false,
   },
 
+      {
+    id: 22,
+    name: "Bota importada de seguridad",
+    slug: "bota-seguridad-importada",
+    category: "Calzado de Seguridad",
+    price: 20,
+    image: "../images/bota_importada.png",
+    images: ["../images/bota_importada.png"],
+    description: "Bota importada de seguriddad con planta antideslizante.",
+    features: [
+      "Diseño resistente en PVC negro.",
+      "Impermeables y antideslizantes.",
+      "Adecuadas para uso en industria alimentaria.",
+    ],
+    colors: ["Negro"],
+    sizes: [],
+    featured: false,
+  },
+
+    {
+    id: 23,
+    name: "Zapato de seguridad LEMANS",
+    slug: "zapatos-de-seguridad-lemans",
+    category: "Calzado de Seguridad",
+    price: 280,
+    image: "../images/Botin-Le-Mans-Marron-Clute.jpg",
+    images: ["../images/Botin-Le-Mans-Marron-Clute.jpg"],
+    description: "Calzado con punta de COMPOSITE y planta KEVLAR para trabajos de seguridad.",
+    features: [
+      "Puntera Composite (no metálica), soporta los 200J (joules) de impacto Sobrepuntera sintética – resistente a la abrasión.",
+      "Entre suela: Kevlar (anti perforación). Soporta 1100 kN de penetración.",
+      "Goma o caucho + EVA (Etil vinil acetato), para mejor absorción de energía en el talón. ",
+    ],
+    colors: ["Marron"],
+    sizes: ["39", "40", "41", "42"],
+    featured: false,
+  },
+    {
+    id: 24,
+    name: "Zapato de seguridad TRUCKER",
+    slug: "zapatos-de-seguridad-trucker",
+    category: "Calzado de Seguridad",
+    price: 65,
+    image: "../images/trucker.jpg",
+    images: ["../images/trucker.jpg"],
+    description: "El modelo NEW TRUCKER cuenta con sobre puntera de poliuretano con amplia cobertura, puntera de acero, planta antideslizante y plantilla antiperforante de acero",
+    features: [
+      "Puntera Acero W/H asimétrica (ancha y alta), resistente al impacto de 200 Joules.",
+      "Plantilla completa de acero inoxidable, resistente a la penetración de 1100 Newtons.",
+      "Calzado dieléctrico. Cumple con la norma ASTM F2413 (EH 18 kV). Cumple con las especificaciones técnicas de la norma EN ISO 20345, NTP ISO 20345.",
+    ],
+    colors: ["Marron"],
+    sizes: ["37","38","39", "40", "41", "42"],
+    featured: false,
+  },
+
 
 ];
