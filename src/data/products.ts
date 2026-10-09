@@ -453,7 +453,7 @@ export const PRODUCTS: Product[] = [
     name: "Zapato de seguridad TRUCKER",
     slug: "zapatos-de-seguridad-trucker",
     category: "Calzado de Seguridad",
-    price: 65,
+    price: 95,
     image: "../images/trucker.jpg",
     images: ["../images/trucker.jpg"],
     description: "El modelo NEW TRUCKER cuenta con sobre puntera de poliuretano con amplia cobertura, puntera de acero, planta antideslizante y plantilla antiperforante de acero",
