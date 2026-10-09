@@ -464,7 +464,7 @@ export const PRODUCTS: Product[] = [
     ],
     colors: ["Marron"],
     sizes: ["37","38","39", "40", "41", "42"],
-    featured: false,
+    featured: true,
   },
 
 
